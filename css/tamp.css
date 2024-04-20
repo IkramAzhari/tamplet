@@ -1,0 +1,238 @@
+.sec1 > h1{
+    color: #10cab7;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.logoimg{
+    width: 80px;
+    height: 30px;
+    margin: 15px;
+    position: relative;
+    left: 80px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    font-size: 30px;
+    padding: 10px;
+    padding-right: 70px;
+    position: relative;
+}
+.links:hover ul{
+    display: block;
+}
+.links > ul{
+    list-style: none;
+    padding: 0%;
+    position: absolute;
+    right: 75px;
+    background-color: #f1f3f4;
+    min-width: 300px;
+    border-radius: 10px;
+    display: none;
+}
+.links > ul >i{
+    position: absolute;
+    left: 274px;
+    top: -24px;
+    color: #f1f3f4;
+}
+.links > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: medium;
+    border-bottom: 1px solid #dfe1e3;
+}
+.links > ul > li > a:hover{
+    padding-left: 30px;
+}
+.sec1 > p{
+    font-size: 19px;
+    width:55%;
+    margin: 20px;
+    line-height: 1.8;
+}
+.header{
+    background-image: url(../pics/landing.jpg);
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    font-family: "Work Sans", sans-serif ;
+}
+.col-12 > div > h5{
+    font-weight: 800;
+    margin-bottom: 38px;
+}
+.col-12 > div{    
+    padding: 65px;
+}
+.col-12 > div > p{
+    color: rgb(165, 163, 163);
+    padding: 2.8px;
+    margin-top: 10px;
+    line-height:1.7;
+}
+.col-12 > div > div > .icon1{
+    font-size: 50px;
+    color: #10cab7;
+}
+.col-12 > div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hNum{
+    color: #dfe1e3;
+    letter-spacing:-3px;
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 0;
+}
+.pNum{
+    word-spacing: 2px;
+    color:rgb(119, 116, 116);
+    margin: 0;
+    margin-top: -35px;
+    font-size: larger;
+}
+.porotofile,.contact{
+    background-color: #ebeced;
+    padding-top: 50px;
+}
+.porotofile > .container > .row  > .col-lg-4{
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding: 20px;
+}
+.card-title{
+    font-weight: 800;
+    font-size: larger;
+    padding: 5px;
+}
+.card-text{
+    color: rgb(119, 116, 116);
+    padding: 5px;
+    width: fit-content;
+}
+.divhead{
+    margin-top: 50px;
+}
+/**about**/
+hr{
+    color: #00767f;
+}
+.aboutimg{
+    height: 300px;
+    margin-left: 80px;
+    position: relative;
+    left: -70px;
+    top: 10px;
+}
+.about > .container > .row > .col-lg-7 > div{
+    margin-top: 50px;
+}
+.about > .container{
+    margin: 50px auto;
+}
+.about > .container > .row > .col-lg-5 > div{
+    padding: 20px;
+    background-color: #00767f;
+    width: 30%;
+    height: 350px;
+    position: relative;
+    left: 80px;
+}
+.bld{
+    font-weight: 900;
+}
+.notbld{
+    color: rgb(119, 116, 116);
+}
+.bld , .notbld{
+    line-height: 30px;
+}
+/**contact**/
+.contact > .container{
+    margin: 70px auto;
+    margin-bottom: 0%;
+    padding-bottom: 70px;
+}
+.contact > .container > h2{
+    margin: 20px;
+    font-weight: 800;
+}
+.feel{
+    color: #00767f;
+}
+.mail{
+    color: #10cab7;
+}
+/**footer**/
+footer{
+    background-color: #00767f;
+    padding: 20px;
+}
+footer>h5{
+    color: white;
+}
+footer>h5>span{
+    color: #10cab7;
+}
+.contact>.container>p{
+    padding: 5px;
+}
+.contact>.container>p>i{
+    padding: 3px;
+    color: #00767f;
+}
+/** here the section grid**/
+.icon{
+    position: relative;
+    top: 50px;
+    font-size: xx-large ;
+    color: #10cab7;
+}
+.services{
+    padding: 50px;
+}
+.services > .row > .col-12 > div{
+    margin: 5%;
+    margin-right: 20%;
+    margin-left: 18%;
+    padding: 1%;
+    width: 280px;
+}
+.services > .row > .col-12 > div > p{
+    line-height: 1.5;
+
+}
+.services > .row > .col-12 > div > h5{
+    font-size: medium;
+    margin: 2%;
+    padding: 2%;
+}
+.services > .row > .col-12 >.serbakimg{
+    background-color: #10cab7;
+    width: 109px;
+    height: 450px;
+    position: relative;
+    left: 150px;
+    direction: rtl;
+}
+.services > .row > .col-12 > div > img{
+    position: relative;
+    top: 40px;
+    left: -20px;
+    width: 250px;
+    height: 350px;
+}
