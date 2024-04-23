@@ -95,7 +95,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.hNum{
+.{
     color: #dfe1e3;
     letter-spacing:-3px;
     font-size: 100px;
@@ -240,7 +240,4 @@ footer>h5>span{
     left: -20px;
     width: 250px;
     height: 350px;
-}
-*{
-    text-align: center;
 }
