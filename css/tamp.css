@@ -241,6 +241,6 @@ footer>h5>span{
     width: 250px;
     height: 350px;
 }
-*{
-    width:100%;
+body{
+    width: min-content;
 }
