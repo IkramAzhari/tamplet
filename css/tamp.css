@@ -17,9 +17,9 @@
 }
 @media (max-width:767px) {
     .logoimg{
-        width: 30px;
+        width: 20px;
         position: relative;
-        left: 20px;
+        left: 100px;
     }
 }
 .nav{
@@ -238,7 +238,7 @@ footer>h5>span{
 @media (max-width:767px) {
     .icon{
         position: relative;
-        left: 15px;
+        left: -15px;
     }
     
 }
