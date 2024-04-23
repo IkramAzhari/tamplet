@@ -215,7 +215,7 @@ footer>h5>span{
     margin-right: 20%;
     margin-left: 18%;
     padding: 1%;
-    width: 280px;
+    width: auto;
 }
 .services > .row > .col-12 > div > p{
     line-height: 1.5;
@@ -241,6 +241,6 @@ footer>h5>span{
     width: 250px;
     height: 350px;
 }
-section{
+*{
     width:100%;
 }
