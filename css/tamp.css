@@ -17,9 +17,9 @@
 }
 @media (max-width:767px) {
     .logoimg{
-        width: 50px;
+        width: 30px;
         position: relative;
-        left: 50px;
+        left: 20px;
     }
 }
 .nav{
@@ -163,7 +163,7 @@ hr{
     .img-fluid{
         width: 150px;
         position: relative;
-        left: -50px;
+        left: -70px;
     }
 }
 .about > .container > .row > .col-lg-7 > div{
@@ -234,6 +234,13 @@ footer>h5>span{
     top: 50px;
     font-size: xx-large ;
     color: #10cab7;
+}
+@media (max-width:767px) {
+    .icon{
+        position: relative;
+        left: 15px;
+    }
+    
 }
 .services{
     padding: 50px;
