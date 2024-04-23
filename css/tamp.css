@@ -40,7 +40,7 @@
 }
 .links > ul >i{
     position: absolute;
-    left: 274px;
+    left: 174px;
     top: -24px;
     color: #f1f3f4;
 }
@@ -95,13 +95,11 @@ body{
     justify-content: center;
     align-items: center;
 }
-.{
+.hNum{
     color: #dfe1e3;
     letter-spacing:-3px;
-    font-size: 100px;
     font-weight: bolder;
     margin: 0;
-    padding: 0%;
 }
 .pNum{
     word-spacing: 2px;
@@ -109,6 +107,14 @@ body{
     margin: 0;
     margin-top: -35px;
     font-size: larger;
+}
+@media (max-width:767px ) {
+    .hNum{
+        font-size: 60px;
+    }
+    .pNum{
+        margin-top: -30px;
+    }   
 }
 .porotofile,.contact{
     background-color: #ebeced;
@@ -215,7 +221,13 @@ footer>h5>span{
     margin-right: 20%;
     margin-left: 18%;
     padding: 1%;
-    width: auto;
+    width: 280px;
+}
+@media (max-width:767px) {
+    .services > .row > .col-12 > div{
+        width: 230px;
+        height: 200px;
+    }
 }
 .services > .row > .col-12 > div > p{
     line-height: 1.5;
